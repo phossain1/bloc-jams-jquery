@@ -1,6 +1,6 @@
 class Helper {
-    helper () {
-    const helper = player.playPauseAndUpdate
-    $('#total-time').playPauseAndUpdate( song );
-  }
+  $('#time-control .total-time').playPauseAndUpdate (song) {
+   player.playPause(song);
 }
+
+const helper = new Helper ();
